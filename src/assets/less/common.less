@@ -1,0 +1,54 @@
+@import "./variable";
+@import "./font";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+input, textarea {
+  border: none;
+  -webkit-appearance: none;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+div:focus, input:focus, textarea:focus,
+select:focus, button:focus, .btn:focus {
+  outline: none;
+}
+
+em, i {
+  font-style: normal;
+}
+
+li, ul {
+  list-style: none;
+}
+
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.btn, button,input[type='button'] {
+  border: none;
+  background-color: transparent;
+}
+
+.clear {
+  display: block;
+  clear: both;
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+

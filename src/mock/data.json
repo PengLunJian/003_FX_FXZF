@@ -1,0 +1,22 @@
+{
+  "login": {
+    "username": "Peng"
+  },
+  "wdyy": [
+    {
+      "slotOut": false
+    },
+    {
+      "slotOut": true
+    },
+    {
+      "slotOut": false
+    },
+    {
+      "slotOut": true
+    },
+    {
+      "slotOut": true
+    }
+  ]
+}
